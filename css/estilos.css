@@ -1,0 +1,50 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(bienvenida.css);
+@import url(blog.css);
+@import url(info.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #333;
+    color: aliceblue;
+    position: fixed;
+    z-index:100;
+    font-family: cursive;
+}
+
+h1{
+    float: left;
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+#banner .contenedor{
+    top: 80px;
+    left: 130px;
+    color: white; 
+    font-family: cursive; 
+    width: 80%;  
+    text-align: center;
+}
+
+label{
+    color: black; 
+}
+
+footer .contenedor{
+    text-align: center;
+    padding: 40px;
+    font-family: cursive;
+    border-bottom: solid 6px rgb(51, 51, 51);
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+#blog h3,h4{
+    text-align: center;
+    font-family: cursive;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+#blog .contenedor img{
+    width: 100%;
+    height: 300px;
+    border: solid 5px grey;
+    border-radius: 15px;
+}
+#blog article{
+    margin:10px;
+    
+}

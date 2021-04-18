@@ -1,0 +1,49 @@
+
+#formulario {
+    background: rgb(9, 118, 151);
+    padding: 45px;
+}
+
+#banner img{
+    height: 22rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#banner .contenedor{
+    top: 80px;
+    left: 130px;
+    color: white; 
+    font-family: cursive; 
+    width: 80%;  
+    text-align: center;
+}
+
+.form-titulo{
+    background: rebeccapurple;
+    font-family: cursive;
+    text-align: center;
+    padding: 15px;
+    border-bottom: solid 5px gray;
+    border-radius: 8px 8px 0px 0px;
+}
+.form-registro{
+    width: 95%;
+    margin: auto;
+    background: white;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.form-group {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-row {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
